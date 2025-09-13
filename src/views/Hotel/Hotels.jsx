@@ -245,7 +245,7 @@ setfilteredHotels(response)
                   <div className="card-header p-0">
                     {hotel.images && hotel.images.length > 0 ? (
                       <img
-                        src={`http://localhost:3000/uploads/${hotel.images[0]}`}
+                        src={`https://hotel-api-ywn8.onrender.com/uploads/${hotel.images[0]}`}
                         className="card-img-top img-fluid"
                         alt={hotel.nom}
                         style={{ height: "200px", objectFit: "cover" }}
