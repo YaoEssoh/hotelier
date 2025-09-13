@@ -151,7 +151,7 @@ const Rooms = () => {
                 <div className="row">
                   <div className="col-md-4">
                     <img
-                      src={`http://localhost:3000/uploads/${hotel.images[0]}`}
+                      src={`https://hotel-api-ywn8.onrender.com/uploads/${hotel.images[0]}`}
                       alt={hotel.nom}
                       className="img-fluid rounded"
                       style={{
@@ -253,7 +253,7 @@ const Rooms = () => {
                         <div className="card h-100">
                           <div className="card-img-top position-relative">
                             <img
-                              src={`http://localhost:3000/uploads/${room.image}`}
+                              src={`https://hotel-api-ywn8.onrender.com/uploads/${room.image}`}
                               alt={`Room ${room.numero}`}
                               className="img-fluid"
                               style={{
@@ -708,7 +708,7 @@ const Rooms = () => {
                 <div className="row">
                   <div className="col-md-6">
                     <img
-                      src={`http://localhost:3000/uploads/${selectedRoom.image}`}
+                      src={`https://hotel-api-ywn8.onrender.com/uploads/${selectedRoom.image}`}
                       alt={`Room ${selectedRoom.numero}`}
                       className="img-fluid rounded mb-3"
                     />

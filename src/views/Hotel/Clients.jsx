@@ -139,7 +139,7 @@ function Clients() {
                             <td>
                               {client.image ? (
                                 <img 
-                                  src={`http://localhost:3000/file/${client.profil}`} 
+                                  src={`https://hotel-api-ywn8.onrender.com/file/${client.profil}`} 
                                   alt={client.nom}
                                   className="rounded-circle"
                                   style={{ width: '40px', height: '40px', objectFit: 'cover' }}

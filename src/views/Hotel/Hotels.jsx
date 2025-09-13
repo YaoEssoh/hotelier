@@ -352,7 +352,7 @@ setfilteredHotels(response)
                   <div className="col-md-6">
                     {selectedHotel.images && selectedHotel.images.length > 0 ? (
                       <img
-                        src={`http://localhost:3000/uploads/${selectedHotel.images[0]}`}
+                        src={`https://hotel-api-ywn8.onrender.com/uploads/${selectedHotel.images[0]}`}
                         className="img-fluid mb-3"
                         alt={selectedHotel.nom}
                       />
