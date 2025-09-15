@@ -75,7 +75,7 @@ function App() {
           }
         />
         <Route
-          path="/auth/reset/:token"
+          path="/reset-password/:token"
           element={
             <PublicRoute>
               <Reset />
