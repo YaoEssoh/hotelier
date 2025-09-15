@@ -245,7 +245,7 @@ setfilteredHotels(response)
                   <div className="card-header p-0">
                     {hotel.images && hotel.images.length > 0 ? (
                       <img
-                        src={`https://hotel-api-ywn8.onrender.com/uploads/${hotel.images[0]}`}
+                        src={`http://localhost:3000/uploads/${hotel.images[0]}`}
                         className="card-img-top img-fluid"
                         alt={hotel.nom}
                         style={{ height: "200px", objectFit: "cover" }}
@@ -352,7 +352,7 @@ setfilteredHotels(response)
                   <div className="col-md-6">
                     {selectedHotel.images && selectedHotel.images.length > 0 ? (
                       <img
-                        src={`https://hotel-api-ywn8.onrender.com/uploads/${selectedHotel.images[0]}`}
+                        src={`http://localhost:3000/uploads/${selectedHotel.images[0]}`}
                         className="img-fluid mb-3"
                         alt={selectedHotel.nom}
                       />

@@ -4,7 +4,7 @@ import axios from 'axios';
 import { FaUser, FaSearch } from 'react-icons/fa';
 import { MdClear } from 'react-icons/md';
 
-const API_BASE = process.env.REACT_APP_API_BASE || 'https://hotel-api-ywn8.onrender.com';
+const API_BASE = process.env.REACT_APP_API_BASE || 'http://localhost:3000';
 
 function getAuthHeaders() {
   return { 'Content-Type': 'application/json' };
